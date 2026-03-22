@@ -191,6 +191,13 @@ vibecode-editor/
 
 ---
 
+## 👥 Team
+
+* SHIVANSH MISHRA
+* SHIVANK MISHRA
+
+---
+
 ## 📄 License
 
 MIT License
