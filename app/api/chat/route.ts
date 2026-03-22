@@ -93,8 +93,14 @@ export async function POST(req: NextRequest) {
 
     //   Generate ai response
 
-    const aiResponse = await generateAIResponse(messages);
+    //const aiResponse = await generateAIResponse(messages);
+let aiResponse: string;
 
+if (process.env.NODE_ENV === "production") {
+  aiResponse = "⚠️ AI is disabled in demo version. Please run locally to use AI features.";
+} else {
+  aiResponse = await generateAIResponse(messages);
+}
 
 
     return NextResponse.json({
