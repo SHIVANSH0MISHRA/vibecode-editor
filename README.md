@@ -1,6 +1,6 @@
 # 🧠 Vibecode Editor – AI-Powered Web IDE
 
-![Vibecode Editor Thumbnail](public/vibe-code-editor-thumbnaail.svg)
+![Vibecode Editor Thumbnail](public/vibe-code-editor-thumbnail.svg)
 
 **Vibecode Editor** is a browser-based, AI-powered development environment that enables users to write, run, and debug full-stack applications entirely in the browser. It combines **WebContainers**, **Monaco Editor**, and **local LLMs (Ollama)** to deliver a seamless coding experience without requiring any local setup.
 
